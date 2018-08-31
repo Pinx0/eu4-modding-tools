@@ -1,0 +1,11 @@
+    every_province = 
+    {
+      limit = 
+      {
+        OR =
+        {
+TKPROVINCES
+        }
+      }
+      set_province_flag = ics_province_type_TKPROVINCETYPEID
+    }

@@ -1,0 +1,10 @@
+country_event = 
+{
+  id = ics_scores.102
+  is_triggered_only = yes #ics_scores.999
+  hidden = yes
+  immediate = 
+  {
+TKEVERYPROVINCETOTAL
+  }
+}

@@ -1,0 +1,13 @@
+    every_province = 
+    {
+      limit = 
+      {
+        OR =
+        {
+          province_id = 206
+          province_id = 230
+          province_id = 213
+        }
+      }
+      set_province_flag = ics_province_type_4
+    }

@@ -1,0 +1,165 @@
+Nombre,ID,Tipo de punto,     Región
+Galicia,206,4,Iberia
+Lisboa,227,1,Iberia
+Algarve,230,4,Iberia
+Toledo,219,1,Iberia
+Granada,223,3,Iberia
+Barcelona,213,4,Iberia
+Rosellon,197,2,Iberia
+Gascony,174,4,France
+Lyonnais,203,4,France
+Provence,201,3,France
+Paris,183,1,France
+Lothian,248,3,Britain
+Scarborough,4368,4,Britain
+London,236,1,Britain
+Calais,87,2,Low Countries
+Antwerpen,1744,3,Low Countries
+Den Haag,4383,1,Low Countries
+East Frisia,1931,4,Low Countries
+Koln,85,4,north germany
+Frankfurt,1876,3,north germany
+Brunswick,57,4,north germany
+Bremen,1874,2,north germany
+Lubeck,45,3,north germany
+Brandenburg,50,1,north germany
+Regensburg,2957,4,south germany
+Elass,75,2,south germany
+Tirol,73,3,south germany
+Praha,266,3,north germany
+Milano,104,3,italy
+Genoa,101,2,italy
+Firenze,116,3,italy
+Corsica,1247,4,italy
+Roma,118,1,italy
+Ferrara,113,4,italy
+Venice,112,1,italy
+Salerno,2983,4,italy
+Palermo,125,3,italy
+Istria,130,4,south germany
+Sjaelland,12,3,scandinavia
+Akerhus,17,4,scandinavia
+Stockholm,1,1,scandinavia
+Abo,27,4,scandinavia
+Gotland,25,4,scandinavia
+Danzig,43,3,baltic
+Breslau,770,2,baltic
+Krakow,262,4,poland
+Warsaw,257,1,poland
+Memel,40,4,baltic
+Pest,153,3,carpathia
+Ragusa,137,3,baltic
+Nandorferhervar,4239,4,balkans
+Hunyad,1951,3,carpathia
+Kosovo,1766,4,balkans
+Athens,146,4,balkans
+Nigbolu,150,4,balkans
+Constantinople,151,1,balkans
+Basarabia,1756,2,carpathia
+Kiev,280,3,ruthenia
+Riga,38,3,baltic
+Pskov,274,4,russia
+Smolensk,293,2,ruthenia
+Neva,33,2,russia
+Moscu,295,1,russia
+Odoyev,4116,4,russia
+Crimea,284,4,pontic steppe
+Azov,286,2,pontic steppe
+Astrakhan,464,4,pontic steppe
+Ankara,326,4,anatolia
+Karaman,324,3,anatolia
+Trebizond,330,4,anatolia
+Diyarbekir,418,4,anatolia
+Antioch,2313,2,mashriq
+Damascus,382,4,mashriq
+Jerusalem,379,3,mashriq
+Cairo,361,1,egypt
+Krete,163,3,balkans
+Cyprus,321,4,anatolia
+Ceuta,1751,2,Maghreb
+Marrakech,344,1,Maghreb
+Oran,337,4,Maghreb
+Tunis ,341,3,Maghreb
+Tripoli,354,4,Maghreb
+Tbilisi,423,3,Caucasia
+Tabriz,416,1,Persia
+Bagdad,410,3,Mashriq
+Qom,2213,3,Persia
+Basra,408,2,Mashriq
+Meca,385,3,Arabia
+Mukha,387,2,Arabia
+Awal,396,4,Arabia
+Masqat,400,4,Arabia
+Sari,4341,4,Persia
+Fasa,4329,4,Persia
+Hormuz,2999,2,Persia
+Herat,446,1,Khorasan
+Samarkand,454,4,Central Asia
+Kypshak,476,4,Central Asia
+Roh,578,2,Khorasan
+Qasr Ibrim,1234,4,Egypt
+Gonder,1224,1,Horn of Africa
+Kaffa,2757,4,Horn of Africa
+Mogadishu,1205,3,Horn of Africa
+Busoga,4062,4,Central Africa
+Zanzibar,1201,4,East Africa
+Quelimane,1192,4,South Africa
+Butua,1185,4,South Africa
+Cape ,1177,4,South Africa
+Ngoyo,4079,4,Kongo
+Gold Coast,1139,4,Guinea
+Cayor,1113,4,Guinea
+Bambuk,1120,4,Niger
+Timbuktu,1132,4,Sahel
+Borno,1157,4,Sahel
+Stadacona,994,4,Canada
+Manhattan,965,4,North East
+Chesapeake,1500,4,Sout East
+Chitimacha,893,4,Misissipi
+Miwok,2021,4,California
+Mexico,852,4,Mexico
+Havana,484,4,Caribbean
+Barahonas,490,4,Caribbean
+Panama,835,4,Colombia
+Caracas,831,4,Colombia
+Cuzco,808,4,Peru
+Rio de Janeiro,763,4,Brasil
+Rio de la Plata,778,4,La Plata
+Sialkot,2076,4,Hindustan
+Multan,506,3,Hindustan
+Delhi,522,1,Hindustan
+Thatta,504,3,Western India
+Gujarat,2054,1,Western India
+Mewar,2058,3,Western India
+Goa,2030,4,Deccan
+Vijayanagar,541,1,Deccan
+Bidar,1948,3,Deccan
+Madurai,536,3,Coromandel
+Kotte,572,4,Coromandel
+Mahadeo,2092,4,Deccan
+Cuttack,552,2,Bengal
+Gauda,563,1,Bengal
+Katmandu,557,4,Hindustan
+Pegu,586,4,Burma
+Ava,584,3,Burma
+Ayutthaya,600,4,Indochina
+Luang Paranbang,615,3,Indochina
+Malacca,596,4,Malaya
+Pasai,2673,4,Malaya
+Brunei,636,4,Indonesia
+Kalapa,630,4,Indonesia
+Makassar,641,4,Moluccas
+Prek Russey,2376,4,Indochina
+Manila,656,4,Moluccas
+Canton,667,4,South China
+Fuzhou,669,4,South China
+Hangzhou,684,4,South China
+Hengyang,2174,4,South China
+Nanjing,1821,3,South China
+Beijing,1816,4,North China
+Xi'an,700,3,North China
+Chengdu,679,3,Xinan
+Hanseong,735,4,Korea
+Kyoto,1020,4,Japan
+,,,
+Creo que están todas XD,,,
