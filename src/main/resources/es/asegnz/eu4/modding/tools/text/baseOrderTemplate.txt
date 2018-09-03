@@ -1,0 +1,87 @@
+country_event = 
+{
+  id = iss_scores.TK_200_PLUS_ID
+  hidden = yes
+  is_triggered_only = yes #iss_scores.110
+  immediate =
+  {
+    every_country =
+    {
+      limit = 
+      {
+        has_country_flag = iss_show_in_scores_TK_ID
+      }
+      clr_country_flag = iss_show_in_scores_TK_ID
+    }
+    REB = { save_global_event_target_as = iss_country_TK_ID }
+    while = 
+    {
+      limit =
+      {
+        any_country = 
+        {
+          OR = 
+          {
+            was_player = yes
+            FROM = { has_country_flag = iss_show_ia_scores }
+          }
+          check_variable = 
+          {
+            which = iss_score
+            which = event_target:iss_country_TK_ID
+          }
+          NOT =
+          {
+            OR =
+            {
+TK_COUNTRY_FLAG_REPEAT_N
+              is_variable_equal = 
+              {
+                which = iss_score
+                which = event_target:iss_country_TK_ID
+              }
+            }
+          }
+        }
+      }
+      every_country =
+      {
+        limit = 
+        {
+          has_country_flag = iss_show_in_scores_TK_ID
+        }
+        clr_country_flag = iss_show_in_scores_TK_ID
+      }
+      random_country 
+      {
+        limit =
+        {
+          OR = 
+          {
+            was_player = yes
+            FROM = { has_country_flag = iss_show_ia_scores }
+          }
+          check_variable = 
+          {
+            which = iss_score
+            which = event_target:iss_country_TK_ID
+          }
+          NOT =
+          {
+            OR =
+            {
+TK_COUNTRY_FLAG_REPEAT_N
+              is_variable_equal = 
+              {
+                which = iss_score
+                which = event_target:iss_country_TK_ID
+              }
+            }
+          }
+        }
+        set_country_flag = iss_show_in_scores_TK_ID
+        save_global_event_target_as = iss_country_TK_ID
+      }
+    }
+  }
+}

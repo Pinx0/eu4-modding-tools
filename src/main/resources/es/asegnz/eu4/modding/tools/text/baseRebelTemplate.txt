@@ -1,0 +1,11 @@
+event_target:iss_country_TK_ID =
+    {
+      if = 
+      {
+        limit = 
+        {
+          tag = REB
+        }
+        clear_global_event_target = iss_country_TK_ID
+      }
+    }

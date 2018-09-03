@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Transform {
+public class ProvinceTransform {
 
 	// Declare tokens in order to be replace later
 	public static final String TK_EVERY_PROVINCE_TOTAL = "TKEVERYPROVINCETOTAL";
@@ -21,7 +21,7 @@ public class Transform {
 	public static final String TK_PROVINCE = "TKPROVINCE";
 
 	// Declare pathfiles from the resources folder
-	public static final String baseTextTemplatePath = "es/asegnz/eu4/modding/tools/text/baseTextTemplate.txt";
+	public static final String baseTextTemplatePath = "es/asegnz/eu4/modding/tools/text/baseProvinceTemplate.txt";
 
 	public static final String everyProvinceTemplatePath = "es/asegnz/eu4/modding/tools/text/everyProvinceTemplate.txt";
 

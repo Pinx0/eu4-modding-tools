@@ -1,0 +1,95 @@
+country_event = 
+{
+  id = iss_scores.205
+  hidden = yes
+  is_triggered_only = yes #iss_scores.110
+  immediate =
+  {
+    every_country =
+    {
+      limit = 
+      {
+        has_country_flag = iss_show_in_scores_5
+      }
+      clr_country_flag = iss_show_in_scores_5
+    }
+    REB = { save_global_event_target_as = iss_country_5 }
+    while = 
+    {
+      limit =
+      {
+        any_country = 
+        {
+          OR = 
+          {
+            was_player = yes
+            FROM = { has_country_flag = iss_show_ia_scores }
+          }
+          check_variable = 
+          {
+            which = iss_score
+            which = event_target:iss_country_5
+          }
+          NOT =
+          {
+            OR =
+            {
+              has_country_flag = iss_show_in_scores_1
+              has_country_flag = iss_show_in_scores_2
+              has_country_flag = iss_show_in_scores_3
+              has_country_flag = iss_show_in_scores_4
+              has_country_flag = iss_show_in_scores_5
+              is_variable_equal = 
+              {
+                which = iss_score
+                which = event_target:iss_country_5
+              }
+            }
+          }
+        }
+      }
+      every_country =
+      {
+        limit = 
+        {
+          has_country_flag = iss_show_in_scores_5
+        }
+        clr_country_flag = iss_show_in_scores_5
+      }
+      random_country 
+      {
+        limit =
+        {
+          OR = 
+          {
+            was_player = yes
+            FROM = { has_country_flag = iss_show_ia_scores }
+          }
+          check_variable = 
+          {
+            which = iss_score
+            which = event_target:iss_country_5
+          }
+          NOT =
+          {
+            OR =
+            {
+              has_country_flag = iss_show_in_scores_1
+              has_country_flag = iss_show_in_scores_2
+              has_country_flag = iss_show_in_scores_3
+              has_country_flag = iss_show_in_scores_4
+              has_country_flag = iss_show_in_scores_5
+              is_variable_equal = 
+              {
+                which = iss_score
+                which = event_target:iss_country_5
+              }
+            }
+          }
+        }
+        set_country_flag = iss_show_in_scores_5
+        save_global_event_target_as = iss_country_5
+      }
+    }
+  }
+}
