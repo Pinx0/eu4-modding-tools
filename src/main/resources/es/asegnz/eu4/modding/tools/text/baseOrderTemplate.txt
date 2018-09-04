@@ -1,6 +1,8 @@
 country_event = 
 {
   id = iss_scores.TK_200_PLUS_ID
+  title = "iss_empty_string"
+  desc = "iss_empty_string"
   hidden = yes
   is_triggered_only = yes #iss_scores.110
   immediate =
@@ -84,4 +86,8 @@ TK_COUNTRY_FLAG_REPEAT_N
       }
     }
   }
+  option = 
+	{
+		name = "iss_scores.999.optz"
+	}
 }
