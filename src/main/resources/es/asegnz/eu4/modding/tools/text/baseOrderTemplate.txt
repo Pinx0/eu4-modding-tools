@@ -54,7 +54,7 @@ TK_COUNTRY_FLAG_REPEAT_N
         }
         clr_country_flag = iss_show_in_scores_TK_ID
       }
-      random_country 
+      random_country =
       {
         limit =
         {
